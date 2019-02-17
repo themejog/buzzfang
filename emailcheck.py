@@ -3,8 +3,9 @@
 import requests
 import json
 import pprint
+import sys
 
-email = ''
+email = sys.argv[1]
 breach_list = []
 
 def haveibeenpwned(email):
